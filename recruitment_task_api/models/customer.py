@@ -1,6 +1,6 @@
 from django.db import models
 
-class Customers(models.Model):
+class Customer(models.Model):
     _id = models.CharField(max_length=24, primary_key=True)
     guid = models.CharField(max_length=36)
     is_active = models.BooleanField(default=False)

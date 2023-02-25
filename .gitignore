@@ -1,0 +1,20 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+
+# Development
+.idea/
+*.iml
+*.ipynb
+
+# Ignore the virtual environment
+.venv/
+newenv/

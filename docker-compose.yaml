@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres
+    volumes:
+      - .:/code
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: 'recruitment_task_backend_api'
+      POSTGRES_USER: 'recruitment_task_backend_api'
+      POSTGRES_DB: 'recruitment_task_backend_api'

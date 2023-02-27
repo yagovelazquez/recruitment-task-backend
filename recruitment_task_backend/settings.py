@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "customertracker.yagovelazquez.com",
+        "http://customertracker.yagovelazquez.com",
 ]
 
 # Internationalization
